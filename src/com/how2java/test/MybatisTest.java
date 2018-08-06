@@ -16,7 +16,7 @@ import com.how2java.util.Page;
 @ContextConfiguration("classpath:applicationContext.xml")
 public class MybatisTest {
 
-	@Autowired
+	/*@Autowired
 	private CategoryMapper categoryMapper;
 
 	// @Test
@@ -44,6 +44,6 @@ public class MybatisTest {
 		for (Category c : cs) {
 			System.out.println(c.getName());
 		}
-	}
+	}*/
 
 }
